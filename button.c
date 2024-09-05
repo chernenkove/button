@@ -51,7 +51,7 @@
 #define ENABLE_LOG
 
 /* Private function prototypes -----------------------------------------------*/
-static void IRAM_ATTR isr_handler(void * arg);
+static void isr_handler(void * arg);
 static void button_task (void * arg);
 
 static void debounce_timer_handler(TimerHandle_t timer);
